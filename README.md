@@ -20,4 +20,16 @@ Modules to install for server side (NodeJs) :-
 7) node-cache
 8) morgan
 9) openai
+
+
+Frontend of the App :- 
+![chatbot1](https://github.com/kb787/Chatbot-Using-MERN/assets/120624674/5dedd23a-acb4-4a5b-a741-ca46cb64936c)
+![chatbot2](https://github.com/kb787/Chatbot-Using-MERN/assets/120624674/8b3f6714-d4bd-4904-a948-856b6c5924a7)
+![chatbot3](https://github.com/kb787/Chatbot-Using-MERN/assets/120624674/5cd74db2-ac28-4f70-ad92-4c1f44e56a59)
+![chatbot4](https://github.com/kb787/Chatbot-Using-MERN/assets/120624674/52cd884b-85c7-46bb-bd5c-77af5d51142d)
+
+
+
+
+
    
