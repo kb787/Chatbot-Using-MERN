@@ -1,0 +1,357 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.Homepage 
+{
+   background-color: black;
+}
+
+.homepageIntro 
+{
+   color:yellow ;
+   font-size:2vw ;
+   font-style:italic ;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.card-title 
+{
+   font-size:2vw ;
+   color:white ;
+   margin-top:-0.35vw ;
+}
+
+.card-text 
+{
+   font-size:1.5vw ;
+   color:white ;
+   margin-top:-1.5vw ;
+}
+
+.cardImages 
+{
+   height:20vw ;
+   width:35vw ;
+}
+
+
+.cardListCollection
+{
+   display:flex ;
+   gap:10vw ;
+   margin-left:5vw ;
+   list-style-type: none;
+}
+
+.card 
+{
+    background-color: darkblue;
+    width:35vw ;
+    height:30vw ;
+}
+
+.card:hover 
+{
+   transform:scale(1.2) ;
+   transform:scale(1.2) ;
+}
+
+.homepageLinking 
+{
+   font-size:2vw ;
+   color:yellow ;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-style: italic;
+   text-decoration:none ;
+   margin-bottom:2vw ;
+}
+
+.homepageLinking:hover 
+{
+    color:red ;
+    font-size:2.5vw ;
+    transform:scale(1.5) ;
+    transform:scale(1.5) ;
+} 
+
+
+.Register 
+{
+    background-color: darkblue;
+    border-radius:0.85rem ;
+    width:35vw ;
+    height:40vw ;
+    margin-left:35vw ;
+}
+
+.pageHeading
+{    
+    background-color:black ;
+    color:yellow ;
+    font-size:2.5vw ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:italic
+}
+
+.formInputLabel 
+{
+    font-size:2vw ;
+}
+
+.registerPara 
+{
+   font-size:2vw ;
+   color:yellow ;
+}
+
+.registerLinking 
+{
+    font-size:2vw ;
+    color:yellow ;
+    text-decoration:none;
+}
+
+.registerLinking:hover 
+{
+   font-size:2.5vw ;
+   color:red ;
+}
+
+.registerButton 
+{
+   width:12vw ;
+   font-size:2vw ;
+   background-color:red ;
+   color:white ;
+   border-radius:0.60rem ;
+}
+
+.registerButton:hover 
+{
+   transform:scale(1.5) ;
+   transform:scale(1.5) ;
+}
+
+.SearchEngine 
+{
+    background-color:black ;
+    color:yellow ;
+    margin-top:-3.5vw ;
+    height:70vw ;
+}
+
+.searchEngineHeading 
+{
+   font-size:3.5vw ;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: italic;
+}
+
+.featureOptions 
+{
+    display:flex ;
+    gap:3vw ;
+    margin-top:-5vw ;
+    margin-left:5vw ;
+}
+
+.cardHeading 
+{
+    font-size:3vw ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.featureCollection 
+{
+    list-style-type:none ;
+    margin-top:-2vw ;
+}
+
+
+.searchPara 
+{
+   font-size:1.5vw ;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: italic;
+}
+
+.searchCard 
+{
+    width:20vw ;
+    height:8vw ;
+    background-color: darkslategray;
+    color:white ;
+    border-radius:0.70rem ; 
+}
+
+.searchCard:hover 
+{
+    background-color:red ;
+    transform:scale(1.5) ;
+    transform:scale(1.5) ;
+}
+
+.searchTextArea 
+{ 
+   background-color: white;
+   width:65vw ;
+   font-size:2vw ;
+   color:black ;
+   border-radius:0.80vw ;
+   margin-bottom:3vw ;
+}
+
+.inputCollection 
+{
+    display:flex ;
+    gap:1vw ;
+    list-style-type:none ;
+    margin-left:2vw ;
+}
+
+.inputButton 
+{
+   font-size:3vw ;
+   background-color:green ;
+   color:white ;
+   width:12vw ;
+   height:5vw ;
+   border-radius:0.95rem ;
+   margin-left:-8vw ; 
+}
+
+.inputButton:hover 
+{
+    background-color:red ;
+    transform:scale(1.2) ;
+    transform:scale(1.2) ;
+}
+
+.textAreaIcon 
+{
+    height:4.5vw ;
+    width:5vw ;
+    margin-left:-25vw ;
+    margin-top:0.40vw ;
+    color:black ;
+}
+
+.textAreaIcon:hover 
+{
+    color:red ;
+}
+
+.responseContainer 
+{
+   color:red ;
+}
+
+.iconCollection 
+{
+    display:flex ;
+    list-style-type:none ;
+    gap:5vw ;
+}
+
+
+.pageLinking 
+{
+   font-size:2vw ;
+   color:yellow ;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: italic;
+   text-decoration:none ;
+}
+
+
+.pageLinking:hover 
+{
+   color:red ;
+   font-size:3vw ;  
+}
+
+.inputGroup 
+{
+   display : flex ;
+   list-style-type:none ;
+   gap:2vw ;  
+}
+
+.imageTextArea 
+{
+   font-size:2vw ;
+   width:45vw ;
+   margin-left:20vw ;
+}
+
+.imageText 
+{
+   font-size:2vw ;
+   width:45vw ;
+   height:45vw ;
+   margin-left:-7.5vw ;
+}
+
+.ImageGeneration 
+{
+   background-color:black ;
+   margin-top:-1.5vw ;
+   height:65vw ;
+}
+
+.imageButton 
+{
+  font-size:2vw ;
+  background-color:green ;
+  color:white ;
+  width:12vw ;
+  height:5vw ;
+  border-radius:0.95rem ;
+}
+
+.imageButton:hover 
+{
+    background-color:red ;
+    transform:scale(1.2) ;
+    transform:scale(1.2) ;
+}
+
+
