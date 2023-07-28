@@ -4,7 +4,7 @@ var colors = require('colors') ;
 const Connect = () => 
 {
     try  {
-          mongoose.connect("mongodb+srv://KaranBhanushali:Kb19092003%40@cluster0.fpqcnoe.mongodb.net/gptCloneDatabase",
+          mongoose.connect("xyz",
            {
            useNewUrlParser:true ,
            useUnifiedTopology:true
